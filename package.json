@@ -1,0 +1,19 @@
+{
+  "name": "playwright-practice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx app/server.ts",
+    "test": "playwright test",
+    "test:ui": "playwright test --project=chromium --project=chromium-guest",
+    "test:api": "playwright test --project=api",
+    "test:headed": "playwright test --project=chromium --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

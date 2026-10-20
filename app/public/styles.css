@@ -1,0 +1,44 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 2rem auto;
+  max-width: 40rem;
+  color: #1c1c1c;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+[role='alert'] {
+  color: #8d1d1d;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  padding: 0.4rem 0;
+}
+
+video {
+  width: 100%;
+  background: #111;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Player</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/items">Items</a>
+      <a href="/watch">Player</a>
+    </nav>
+    <main>
+      <h1>Player</h1>
+      <!-- Our button, not the browser's built-in controls. Those live in shadow DOM and differ per browser. -->
+      <button type="button" id="play">Play</button>
+      <!-- playsinline matters on iOS Safari. Without it the phone opens the native fullscreen player. -->
+      <video playsinline></video>
+      <p id="error" role="alert" hidden></p>
+    </main>
+    <script src="/watch.js"></script>
+  </body>
+</html>
